@@ -3,7 +3,7 @@ CC		=	gcc
 FLAGS	=	-Wall -Wextra -Werror
 
 LEMC	=	main.c init.c \
-			argparse.c free.c \
+			parse_arg.c free.c \
 			valid.c roomparse.c \
 			alg.c ants.c print.c \
 			matrix.c paths.c \
