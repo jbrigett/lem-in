@@ -4,8 +4,8 @@ FLAGS	=	-Wall -Wextra -Werror
 
 LEMC	=	main.c init.c \
 			parse_arg.c free.c \
-			valid.c roomparse.c \
-			alg.c ants.c print.c \
+			valid.c parse_room.c \
+			alg_bfs.c ants.c print.c \
 			matrix.c paths.c \
 			queue.c steps.c \
 			check_rooms.c markup.c
